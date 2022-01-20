@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="equazioni-secondo-grado.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PreAccademyEquazione2Grado.Core\PreAccademyEquazione2Grado.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="equazioni-secondo-grado.jpg" />
+  </ItemGroup>
+
+</Project>
